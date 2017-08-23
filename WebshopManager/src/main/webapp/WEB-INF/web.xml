@@ -1,0 +1,27 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Shopping</servlet-name>
+  	<display-name>Shopping</display-name>
+  	<description></description>
+  	<servlet-class>service.Shopping</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShoppingService</servlet-name>
+  	<display-name>ShoppingService</display-name>
+  	<description></description>
+  	<servlet-class>service.ShoppingService</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Shopping</servlet-name>
+  	<url-pattern>/Shopping</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShoppingService</servlet-name>
+  	<url-pattern>/ShoppingService</url-pattern>
+  </servlet-mapping>
+</web-app>
